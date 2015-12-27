@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B664E7EA1C2FA363003A51D6 /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664E7E91C2FA363003A51D6 /* RecordedAudio.swift */; };
 		B6BE31131C2ECCD600C242CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BE31121C2ECCD600C242CD /* AppDelegate.swift */; };
-		B6BE31151C2ECCD600C242CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BE31141C2ECCD600C242CD /* ViewController.swift */; };
+		B6BE31151C2ECCD600C242CD /* RecordSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BE31141C2ECCD600C242CD /* RecordSoundViewController.swift */; };
 		B6BE31181C2ECCD600C242CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6BE31161C2ECCD600C242CD /* Main.storyboard */; };
 		B6BE311A1C2ECCD600C242CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6BE31191C2ECCD600C242CD /* Images.xcassets */; };
 		B6BE311D1C2ECCD600C242CD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6BE311B1C2ECCD600C242CD /* LaunchScreen.xib */; };
 		B6BE31291C2ECCD600C242CD /* VoiceRecorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BE31281C2ECCD600C242CD /* VoiceRecorderTests.swift */; };
+		B6BE31351C2EEC5F00C242CD /* fear.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B6BE31341C2EEC5F00C242CD /* fear.mp3 */; };
+		B6BE31391C2EF28E00C242CD /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BE31381C2EF28E00C242CD /* PlaySoundsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +29,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B664E7E91C2FA363003A51D6 /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
 		B6BE310D1C2ECCD600C242CD /* VoiceRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6BE31111C2ECCD600C242CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6BE31121C2ECCD600C242CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B6BE31141C2ECCD600C242CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B6BE31141C2ECCD600C242CD /* RecordSoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundViewController.swift; sourceTree = "<group>"; };
 		B6BE31171C2ECCD600C242CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6BE31191C2ECCD600C242CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B6BE311C1C2ECCD600C242CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B6BE31221C2ECCD600C242CD /* VoiceRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6BE31271C2ECCD600C242CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6BE31281C2ECCD600C242CD /* VoiceRecorderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecorderTests.swift; sourceTree = "<group>"; };
+		B6BE31341C2EEC5F00C242CD /* fear.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = fear.mp3; path = ../../../Downloads/fear.mp3; sourceTree = "<group>"; };
+		B6BE31381C2EF28E00C242CD /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +84,13 @@
 			isa = PBXGroup;
 			children = (
 				B6BE31121C2ECCD600C242CD /* AppDelegate.swift */,
-				B6BE31141C2ECCD600C242CD /* ViewController.swift */,
+				B6BE31141C2ECCD600C242CD /* RecordSoundViewController.swift */,
+				B664E7E91C2FA363003A51D6 /* RecordedAudio.swift */,
 				B6BE31161C2ECCD600C242CD /* Main.storyboard */,
 				B6BE31191C2ECCD600C242CD /* Images.xcassets */,
 				B6BE311B1C2ECCD600C242CD /* LaunchScreen.xib */,
 				B6BE31101C2ECCD600C242CD /* Supporting Files */,
+				B6BE31381C2EF28E00C242CD /* PlaySoundsViewController.swift */,
 			);
 			path = VoiceRecorder;
 			sourceTree = "<group>";
@@ -90,6 +98,7 @@
 		B6BE31101C2ECCD600C242CD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B6BE31341C2EEC5F00C242CD /* fear.mp3 */,
 				B6BE31111C2ECCD600C242CD /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6BE31351C2EEC5F00C242CD /* fear.mp3 in Resources */,
 				B6BE31181C2ECCD600C242CD /* Main.storyboard in Resources */,
 				B6BE311D1C2ECCD600C242CD /* LaunchScreen.xib in Resources */,
 				B6BE311A1C2ECCD600C242CD /* Images.xcassets in Resources */,
@@ -212,7 +222,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6BE31151C2ECCD600C242CD /* ViewController.swift in Sources */,
+				B664E7EA1C2FA363003A51D6 /* RecordedAudio.swift in Sources */,
+				B6BE31151C2ECCD600C242CD /* RecordSoundViewController.swift in Sources */,
+				B6BE31391C2EF28E00C242CD /* PlaySoundsViewController.swift in Sources */,
 				B6BE31131C2ECCD600C242CD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +417,7 @@
 				B6BE312E1C2ECCD600C242CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6BE312F1C2ECCD600C242CD /* Build configuration list for PBXNativeTarget "VoiceRecorderTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				B6BE31311C2ECCD600C242CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
